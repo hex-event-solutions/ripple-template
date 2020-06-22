@@ -1,5 +1,7 @@
 # Ripple Template
 
+This is a simple static file server, with templates designed for use with https://github.com/hex-event-solutions/ripple-public
+
 ## Running
 
 Run `yarn install` as normal
