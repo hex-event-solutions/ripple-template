@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Muli&display=swap');
+
+:root {
+  --text-color: #3c4858;
+  --navbar-height: 100px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-content {
+  min-height: calc(100vh - var(--navbar-height));
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.half-height {
+  height: 50vh;
+}
+
+.two-third-height {
+  height: 70vh;
+}
+
+.third-height {
+  height: 30vh;
+}
+
+.auto-height {
+  height: auto;
+}
+
+.header-height {
+  height: calc(30vh + var(--navbar-height));
+}
+
+.big-image {
+  height: 100%;
+  width: 100vw;
+}
+
+.header-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/pageheader.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.home-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://hexes.co.uk/static/media/homebackground.b06c54cd.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.event-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://hexes.co.uk/static/media/homeevent.98f9bdb6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.event2-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://hexes.co.uk/static/media/homeevent2.87524245.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://hexes.co.uk/static/media/homecontact.aa8e39a1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-image {
+  height: 65px !important;
+  width: auto;
+}
+
+.padding-center {
+  padding-top: calc(50vh - 100px);
+}
+
+@media only screen and (max-width: 768px) {
+  .padding-center {
+    padding-top: 50%;
+  }
+}
+
+.padding-center-header {
+  padding-top: calc(12vh + (calc(var(--navbar-height) / 2)));
+}
+
+.pt-10 {
+  padding-top:10vh
+}
+
+.py-10 {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.white {
+  color: white;
+}
+
+p, div {
+  font-family: "Muli", "Helvetica", "Arial", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .nav-link {
+  font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+}
+
+.navbar-dark {
+  /* background-color: rgba(255, 255, 255, 0.15); */
+  background-color: transparent;
+}
+
+.navbar-light {
+  /* background-color: rgba(0, 0, 0, 0.15); */
+  background-color: white;
+}
+
+.hidden-navbar-light {
+  display: none;
+}
+
+.hidden-navbar-dark {
+  display: none;
+}
+
+.navbar {
+  min-height: var(--navbar-height);
+}
+
+.nav-link .active {
+  border-bottom-color: white;
+  border-bottom-width: 3px;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.card-link {
+  color: var(--text-color)
+}
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-row > div[class*='col-'] {
+ display: flex;
+}
+
+.card-img-equal {
+  width: auto;
+  max-height: 300px;
+  padding: 10px;
+}
+
+.card-img-equal-container {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bg-dark {
+  background-color: rgba(20, 23, 25, 0.8) !important;
+}

@@ -1,0 +1,257 @@
+header:
+  brand:
+    image: https://hexes.co.uk/static/media/logo-light.1f72cb05.png
+    link: /home
+    alt: Hex Event Solutions Limited
+  content:
+  - link: HOME
+    destination: /home
+  - link: WHO ARE WE
+    destination: /who-are-we
+  - ripple: HIRE
+  - link: OUR WORK
+    destination: /home#our-work
+  - dropdown: WHAT WE'VE BEEN UP TO
+    content:
+      - link: Grand Gospel 2018
+        destination: /grand-gospel-2018
+      - link: Grand Gospel 2018
+        destination: /grand-gospel-2018
+  - link: GET IN TOUCH
+    destination: /home#get-in-touch
+footer:
+  navigation:
+    align: right
+    content:
+    - text: Legal
+      type: link
+      destination: /legal
+    - text: Terms and Conditions
+      type: link
+      destination: /terms-and-conditions
+pages:
+- name: Home
+  paths:
+  - /
+  - /home
+  type: static
+  content:
+  - type: jumbotron
+    heading: Sound Lighting Rigging Staging Power Crew
+    subheading: Whatever your needs, we've got you covered
+    button:
+      style: primary
+      text: See what we can do
+      link: /home#get-in-touch
+  - type: cards
+    content:
+    - icon: briefcase
+      heading: Experienced
+      text: Having worked on a range of events from small busking gigs to festival stages, we have the skills to make your event the best it can be
+    - icon: user-tie
+      heading: Qualified
+      text: Every one of our crew members is fully trained in both technical services and Health and Safety, so you can be sure your event is in good hands
+    - icon: comments
+      heading: There when you need us
+      text: Let us create your perfect event, working with you at every stage of your planning from inception to show day
+  - type: image
+    height: two-third
+    image: event-image
+  - type: grid
+    heading: We've got you covered
+    subheading: Whether you need a small PA or full festival rig, we can help
+    content:
+    - heading: Lighting
+      text: Our lighting inventory is built from the ground up with industry standard kit, alongside our own custom equipment to give every event a unique experience
+    - heading: Sound
+      text: We have a huge range of sound equipment available from manufacturers such as Nexo, Logic Systems, Pioneer, Allen&Heath and Shure, allowing a perfect match to be found for your requirements
+    - heading: Power
+      text: All of our power equipment is manufactured in-house to our exacting standards, and then tested for safety for your peace of mind
+    - heading: Crew
+      text: Every member of our crew is trained with a number of H&S certifications, as well as a vast supply of training direct from manufacturers
+  - type: image
+    height: two-third
+    image: event2-image
+  - type: portfolio
+    heading: Our work
+    subheading: Take a look at what we've been doing recently
+    anchor: our-work
+    content:
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.9236708f.jpg
+      heading: Aston AU Ball
+      text: Sound, lighting, rigging, power, crew
+      subtext: 1st February 2020
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.adb37aa9.jpg
+      heading: The Long Road
+      text: Stage manager
+      subtext: 6th - 8th September 2019
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.c738b0c9.jpg
+      heading: Creamfields
+      text: Stage manager
+      subtext: 21st - 25th August
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.081b1400.jpg
+      heading: Cross The Tracks & Mighty Hoopla
+      text: Stage manager
+      subtext: 8th - 9th June 2019
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.30506799.jpg
+      heading: Aston Gradball
+      text: Sound, lighting, rigging, power, crew
+      subtext: 25th May 2019
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.650f9271.jpg
+      heading: Aston Take Me Out
+      text: Sound lighting, power, crew
+      subtext: 12th February 2019
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.1555f89d.jpg
+      heading: Aston AU Ball
+      text: Sound, lighting, rigging, power, crew
+      subtext: 9th February 2019
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.b741bcd6.jpg
+      heading: Birmingham Swing Exchange
+      text: Sound, lighting, rigging, power, crew
+      subtext: 1st - 3rd February 2019
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.1dac14f3.jpg
+      heading: Beatz Fitness
+      text: Sound, lighting, power, crew
+      subtext: 24th November 2018
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.a1e78093.jpg
+      heading: Aston Freshers Week
+      text: Sound, lighting, rigging, staging, power, crew
+      subtext: 15th & 22nd September 2018
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.57632eee.jpg
+      heading: The Long Road
+      text: Stage manager
+      subtext: 7th - 9th September 2018
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.33652c31.jpg
+      heading: Creamfields
+      text: Stage manager
+      subtext: 22nd - 26th August 2018
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.87524245.jpg
+      heading: Aston Gradball
+      text: Sound, lighting, rigging, power, crew
+      subtext: 2nd June 2018
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.4451a62d.jpg
+      heading: The Last Hurrah
+      text: Sound, lighting, rigging, power, crew
+      subtext: 5th May 2018
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.5c8d5269.jpg
+      heading: 12 Hours of Dance
+      text: Sound, lighting, rigging, power, crew
+      subtext: 24th March 2018
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.7371412a.jpg
+      heading: Grand Gospel
+      text: Sound, lighting, rigging, power, crew
+      subtext: 23rd February 2018
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.a05d0660.jpg
+      heading: Aston AU Ball
+      text: Sound, lighting, rigging, power, crew
+      subtext: 27th January 2018
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.11a51b55.jpg
+      heading: Birmingham Swing Exchange
+      text: Sound, lighting, rigging, power, crew
+      subtext: 17th - 19th November 2017
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.98f9bdb6.jpg
+      heading: Aston Freshers Week
+      text: Sound, lighting, rigging, staging, power, crew
+      subtext: 16th - 24th September 2017
+    - type: image-card
+      image: https://hexes.co.uk/static/media/header.73eb549b.jpg
+      heading: Lucha Forever
+      text: Sound, lighting, rigging, staging, power, crew
+      subtext: 14th July 2017
+  - type: contact
+    image:
+    heading: Get in touch
+    subheading: See how we can make your dream event become a reality
+    anchor: get-in-touch
+    mobile: 07817 026962
+    email: hire@hexes.co.uk
+- name: Who are we
+  paths:
+  - /who-are-we
+  type: static
+  content:
+  - type: subheading
+    text: Let us introduce ourselves
+  - type: paragraph
+    text: We are a passionate and experienced group of technicians based in Birmingham and West Sussex, covering the Midlands, Surrey, Hampshire, London and most of the South Coast.
+  - type: paragraph
+    text: We create bespoke events for every client, designing every aspect to best suit the style and audience. From initial design right through to keeping the stage clean during the event, we have an eye for detail that can transform your idea into a reality.
+  - type: paragraph
+    text: All our crew are trained on industry standard equipment by leading manufacturers as well as carrying standard Health and Safety qualifications. Every member is insured for live events, ensuring your complete peace of mind when working with us.
+- name: Hire
+  paths:
+  - /hire
+  type: ripple
+- name: Legal
+  paths:
+  - /legal
+  type: static
+  content:
+  - type: subheading
+    text: Copyrights
+  - type: paragraph
+    text: The Facebook logo, and all respective references and trademarks are property of Facebook. Stock photos, where used, are used in accordance with the owner’s policies, and are not to be copied, altered or redistributed outside of acceptable use, defined in the owner’s policy. This site remains property of Hex Event Solutions Limited.
+- name: Terms and Conditions
+  paths:
+  - /terms-and-conditions
+  type: static
+  content:
+  - type: paragraph
+    text: All events are subject to the below terms and conditions.
+  - type: separator
+  - type: subheading
+    text: Payment
+  - type: paragraph
+    text: An estimate of the final charge will be provided when you book an event with us. At the end of an event, you will receive an invoice, with the exact final charge. This is due no later than 30 days from the end of an event. By continuing with your booking, you agree that in the event of non-payment, we will take appropriate action to retrieve the outstanding amount from you.
+  - type: paragraph
+    text: Every event is subject to a 20% non-refundable deposit, based on your quotation amount, to confirm your event.
+  - type: separator
+  - type: subheading
+    text: Cancellation Procedure
+  - type: subsubheading
+    text: Very short notice cancellation – less than 24 hours’ notice
+  - type: paragraph
+    text: We will require payment in full according to the initial quote you received. This is to cover crew, planning time and hired equipment if required.
+  - type: subsubheading
+    text: Short notice cancellation – less than 48 hours' notice
+  - type: paragraph
+    text: We will require payment of hire equipment only.
+  - type: separator
+  - type: subheading
+    text: Booking Procedure
+  - type: paragraph
+    text: To book an event, we require some information about your plan from you, please contact hire@hexes.co.uk.
+  - type: separator
+  - type: subheading
+    text: Transport
+  - type: paragraph
+    text: Any transport or accommodation required by the crew or equipment will be added on to the final total to be paid. An estimate will be given with each quote, but the value given in the invoice is the amount due.
+  - type: separator
+  - type: subheading
+    text: Security
+  - type: paragraph
+    text: Vehicles and equipment must be kept in a secure location; therefore, each event will need a visit to the proposed venue if we have not held an event there before. This is to ensure our requirements are met with no surprises on the day.
+  - type: separator
+  - type: subheading
+    text: Equipment
+  - type: paragraph
+    text: Should our equipment be damaged, lost or stolen during an event and outside of the fault of the crew, any repair, replacement costs and/or hire costs in the period before repair shall be paid by the event organiser. In the case of theft, the cost of replacement will be passed on to the event organiser and the event organiser shall be reported to the appropriate authorities.

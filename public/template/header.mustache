@@ -1,0 +1,37 @@
+<nav class='navbar navbar-expand-lg border-bottom fixed-top navbar-dark text-light bg-dark'>
+  <a class='navbar-brand' href='{{brand.link}}'>
+    <img class='nav-image pl-3' src='{{brand.image}}' alt='{{brand.alt}}' />
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"/>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      {{#content}}
+        {{#link}}
+          <li class='nav-item px-2'><a class='nav-link' href='{{destination}}'>{{link}}</a></li>
+        {{/link}}
+        {{#dropdown}}
+          <li class='nav-item px-2 dropdown'>
+            <a class='nav-link dropdown-toggle' href='#' role='button' aria-haspopup='true' aria-expanded='false'>{{dropdown}}</a>
+            <div class='dropdown-menu'>
+              {{#content}}
+                {{#link}}
+                  <a class='dropdown-item' href='{{destination}}'>{{link}}</a>
+                {{/link}}
+              {{/content}}
+            </div>
+          </li>
+        {{/dropdown}}
+      {{/content}}
+    </ul>
+  </div>
+</nav>
