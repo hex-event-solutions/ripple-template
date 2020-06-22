@@ -1,0 +1,19 @@
+<div class='pt-4 text-left'>
+  {{#width}}<div class='col-sm-{{width}}'>{{/width}}
+  {{^width}}<div class='col-sm-12'>{{/width}}
+    {{#content}}
+      {{#paragraph}}
+        <p>{{paragraph}}</p>
+      {{/paragraph}}
+      {{#heading}}
+        <h3>{{heading}}</h3>
+      {{/heading}}
+      {{#subheading}}
+        <h4>{{subheading}}</h4>
+      {{/subheading}}
+      {{#separator}}
+        <hr />
+      {{/separator}}
+    {{/content}}
+  </div>
+</div>

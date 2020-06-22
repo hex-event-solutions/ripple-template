@@ -52,7 +52,7 @@ code {
 }
 
 .header-image {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/pageheader.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://hexes.co.uk/static/media/pageheader.c738b0c9.jpg);
   background-position: center;
   background-size: cover;
 }

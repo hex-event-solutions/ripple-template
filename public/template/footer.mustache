@@ -1,1 +1,9 @@
-footer
+<nav class='navbar navbar-expand-sm navbar-light'>
+  <ul class='navbar-nav'>
+    {{#content}}
+      {{#link}}
+        <li class='nav-item px-2'><a class='nav-link' href='{{destination}}'>{{link}}</a></li>
+      {{/link}}
+    {{/content}}
+  </ul>
+</nav>

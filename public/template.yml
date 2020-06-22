@@ -20,15 +20,11 @@ header:
   - link: GET IN TOUCH
     destination: /home#get-in-touch
 footer:
-  navigation:
-    align: right
-    content:
-    - text: Legal
-      type: link
-      destination: /legal
-    - text: Terms and Conditions
-      type: link
-      destination: /terms-and-conditions
+  content:
+  - link: Legal
+    destination: /legal
+  - link: Terms and Conditions
+    destination: /terms-and-conditions
 pages:
 - name: Home
   paths:
@@ -184,19 +180,17 @@ pages:
     anchor: get-in-touch
     mobile: 07817 026962
     email: hire@hexes.co.uk
-- name: Who are we
+- name: Who Are We
   paths:
   - /who-are-we
   type: static
   content:
-  - type: subheading
-    text: Let us introduce ourselves
-  - type: paragraph
-    text: We are a passionate and experienced group of technicians based in Birmingham and West Sussex, covering the Midlands, Surrey, Hampshire, London and most of the South Coast.
-  - type: paragraph
-    text: We create bespoke events for every client, designing every aspect to best suit the style and audience. From initial design right through to keeping the stage clean during the event, we have an eye for detail that can transform your idea into a reality.
-  - type: paragraph
-    text: All our crew are trained on industry standard equipment by leading manufacturers as well as carrying standard Health and Safety qualifications. Every member is insured for live events, ensuring your complete peace of mind when working with us.
+  - type: block
+    content:
+    - heading: Let us introduce ourselves
+    - paragraph: We are a passionate and experienced group of technicians based in Birmingham and West Sussex, covering the Midlands, Surrey, Hampshire, London and most of the South Coast.
+    - paragraph: We create bespoke events for every client, designing every aspect to best suit the style and audience. From initial design right through to keeping the stage clean during the event, we have an eye for detail that can transform your idea into a reality.
+    - paragraph: All our crew are trained on industry standard equipment by leading manufacturers as well as carrying standard Health and Safety qualifications. Every member is insured for live events, ensuring your complete peace of mind when working with us.
 - name: Hire
   paths:
   - /hire
@@ -206,52 +200,37 @@ pages:
   - /legal
   type: static
   content:
-  - type: subheading
-    text: Copyrights
-  - type: paragraph
-    text: The Facebook logo, and all respective references and trademarks are property of Facebook. Stock photos, where used, are used in accordance with the owner’s policies, and are not to be copied, altered or redistributed outside of acceptable use, defined in the owner’s policy. This site remains property of Hex Event Solutions Limited.
+  - type: block
+    content:
+      - heading: Copyrights
+      - paragraph: The Facebook logo, and all respective references and trademarks are property of Facebook. Stock photos, where used, are used in accordance with the owner’s policies, and are not to be copied, altered or redistributed outside of acceptable use, defined in the owner’s policy. This site remains property of Hex Event Solutions Limited.
 - name: Terms and Conditions
   paths:
   - /terms-and-conditions
   type: static
   content:
-  - type: paragraph
-    text: All events are subject to the below terms and conditions.
-  - type: separator
-  - type: subheading
-    text: Payment
-  - type: paragraph
-    text: An estimate of the final charge will be provided when you book an event with us. At the end of an event, you will receive an invoice, with the exact final charge. This is due no later than 30 days from the end of an event. By continuing with your booking, you agree that in the event of non-payment, we will take appropriate action to retrieve the outstanding amount from you.
-  - type: paragraph
-    text: Every event is subject to a 20% non-refundable deposit, based on your quotation amount, to confirm your event.
-  - type: separator
-  - type: subheading
-    text: Cancellation Procedure
-  - type: subsubheading
-    text: Very short notice cancellation – less than 24 hours’ notice
-  - type: paragraph
-    text: We will require payment in full according to the initial quote you received. This is to cover crew, planning time and hired equipment if required.
-  - type: subsubheading
-    text: Short notice cancellation – less than 48 hours' notice
-  - type: paragraph
-    text: We will require payment of hire equipment only.
-  - type: separator
-  - type: subheading
-    text: Booking Procedure
-  - type: paragraph
-    text: To book an event, we require some information about your plan from you, please contact hire@hexes.co.uk.
-  - type: separator
-  - type: subheading
-    text: Transport
-  - type: paragraph
-    text: Any transport or accommodation required by the crew or equipment will be added on to the final total to be paid. An estimate will be given with each quote, but the value given in the invoice is the amount due.
-  - type: separator
-  - type: subheading
-    text: Security
-  - type: paragraph
-    text: Vehicles and equipment must be kept in a secure location; therefore, each event will need a visit to the proposed venue if we have not held an event there before. This is to ensure our requirements are met with no surprises on the day.
-  - type: separator
-  - type: subheading
-    text: Equipment
-  - type: paragraph
-    text: Should our equipment be damaged, lost or stolen during an event and outside of the fault of the crew, any repair, replacement costs and/or hire costs in the period before repair shall be paid by the event organiser. In the case of theft, the cost of replacement will be passed on to the event organiser and the event organiser shall be reported to the appropriate authorities.
+  - type: block
+    content:
+    - paragraph: All events are subject to the below terms and conditions.
+    - separator: true
+    - heading: Payment
+    - paragraph: An estimate of the final charge will be provided when you book an event with us. At the end of an event, you will receive an invoice, with the exact final charge. This is due no later than 30 days from the end of an event. By continuing with your booking, you agree that in the event of non-payment, we will take appropriate action to retrieve the outstanding amount from you.
+    - paragraph: Every event is subject to a 20% non-refundable deposit, based on your quotation amount, to confirm your event.
+    - separator: true
+    - heading: Cancellation Procedure
+    - subheading: Very short notice cancellation – less than 24 hours’ notice
+    - paragraph: We will require payment in full according to the initial quote you received. This is to cover crew, planning time and hired equipment if required.
+    - subheading: Short notice cancellation – less than 48 hours' notice
+    - paragraph: We will require payment of hire equipment only.
+    - separator: true
+    - heading: Booking Procedure
+    - paragraph: To book an event, we require some information about your plan from you, please contact hire@hexes.co.uk.
+    - separator: true
+    - heading: Transport
+    - paragraph: Any transport or accommodation required by the crew or equipment will be added on to the final total to be paid. An estimate will be given with each quote, but the value given in the invoice is the amount due.
+    - separator: true
+    - heading: Security
+    - paragraph: Vehicles and equipment must be kept in a secure location; therefore, each event will need a visit to the proposed venue if we have not held an event there before. This is to ensure our requirements are met with no surprises on the day.
+    - separator: true
+    - heading: Equipment
+    - paragraph: Should our equipment be damaged, lost or stolen during an event and outside of the fault of the crew, any repair, replacement costs and/or hire costs in the period before repair shall be paid by the event organiser. In the case of theft, the cost of replacement will be passed on to the event organiser and the event organiser shall be reported to the appropriate authorities.
