@@ -1,0 +1,3 @@
+query {
+  categories(root: true) { id name }
+}
